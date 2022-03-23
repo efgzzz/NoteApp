@@ -1,0 +1,10 @@
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\bin\Debug\NoteApp.View.exe.config
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\bin\Debug\NoteApp.View.exe
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\bin\Debug\NoteApp.View.pdb
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.csproj.AssemblyReference.cache
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.csproj.SuggestedBindingRedirects.cache
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.Properties.Resources.resources
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.csproj.GenerateResource.cache
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.csproj.CoreCompileInputs.cache
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.exe
+C:\Users\cckkc\Source\Repos\efgzzz\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.pdb
