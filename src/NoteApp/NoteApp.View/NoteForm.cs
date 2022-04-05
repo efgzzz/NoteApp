@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace NoteApp.View
 {
-    public partial class Form1 : Form
+    public partial class NoteForm : Form
     {
-        public Form1()
+        public NoteForm()
         {
             InitializeComponent();
+        }
+
+        private void OkButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

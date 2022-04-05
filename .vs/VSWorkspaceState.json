@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\NoteApp"
+    "\\src\\NoteApp",
+    "\\src\\NoteApp\\NoteApp.View"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\NoteApp\\NoteApp.View\\NoteApp.View.csproj",
   "PreviewInSolutionExplorer": false
 }
