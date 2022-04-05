@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\NoteApp",
-    "\\src\\NoteApp\\NoteApp.View"
+    ""
   ],
-  "SelectedNode": "\\src\\NoteApp\\NoteApp.View\\MainForm.Designer.cs",
+  "SelectedNode": "\\NoteApp.sln",
   "PreviewInSolutionExplorer": false
 }
