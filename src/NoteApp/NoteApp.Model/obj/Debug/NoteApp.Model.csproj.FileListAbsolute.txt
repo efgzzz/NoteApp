@@ -1,0 +1,6 @@
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.Model\bin\Debug\NoteApp.Model.dll
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.Model\bin\Debug\NoteApp.Model.pdb
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.Model\obj\Debug\NoteApp.Model.csproj.AssemblyReference.cache
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.Model\obj\Debug\NoteApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.Model\obj\Debug\NoteApp.Model.dll
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.Model\obj\Debug\NoteApp.Model.pdb

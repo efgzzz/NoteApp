@@ -21,3 +21,6 @@ C:\Users\cckkc\Source\Repos\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.V
 C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.MainForm.resources
 C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.NoteForm.resources
 C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.AboutForm.resources
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.View\bin\Debug\NoteApp.Model.dll
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.View\bin\Debug\NoteApp.Model.pdb
+C:\Users\cckkc\source\repos\NoteApp\src\NoteApp\NoteApp.View\obj\Debug\NoteApp.View.csproj.CopyComplete

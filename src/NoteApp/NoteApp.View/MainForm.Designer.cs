@@ -78,8 +78,9 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
@@ -94,20 +95,22 @@
             // addNoteToolStripMenuItem
             // 
             this.addNoteToolStripMenuItem.Name = "addNoteToolStripMenuItem";
-            this.addNoteToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.addNoteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addNoteToolStripMenuItem.Text = "Add Note";
+            this.addNoteToolStripMenuItem.Click += new System.EventHandler(this.addNoteToolStripMenuItem_Click);
             // 
             // editNoteToolStripMenuItem
             // 
             this.editNoteToolStripMenuItem.Name = "editNoteToolStripMenuItem";
-            this.editNoteToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.editNoteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editNoteToolStripMenuItem.Text = "Edit Note";
             // 
             // deleteNoteToolStripMenuItem
             // 
             this.deleteNoteToolStripMenuItem.Name = "deleteNoteToolStripMenuItem";
-            this.deleteNoteToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.deleteNoteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.deleteNoteToolStripMenuItem.Text = "Delete Note";
+            this.deleteNoteToolStripMenuItem.Click += new System.EventHandler(this.deleteNoteToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -120,7 +123,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -160,7 +163,6 @@
             this.CreatedStaticLabel.Size = new System.Drawing.Size(47, 13);
             this.CreatedStaticLabel.TabIndex = 3;
             this.CreatedStaticLabel.Text = "Created:";
-            this.CreatedStaticLabel.Click += new System.EventHandler(this.CreatedStaticLabel_Click);
             // 
             // CreationDatePicker
             // 
@@ -188,7 +190,6 @@
             this.ModifedStaticLabel.Size = new System.Drawing.Size(48, 13);
             this.ModifedStaticLabel.TabIndex = 6;
             this.ModifedStaticLabel.Text = "Modifed:";
-            this.ModifedStaticLabel.Click += new System.EventHandler(this.ModifedStaticLabel_Click);
             // 
             // ShowCategoryLabel
             // 
@@ -242,6 +243,7 @@
             this.DeleteNoteButton.Size = new System.Drawing.Size(23, 23);
             this.DeleteNoteButton.TabIndex = 6;
             this.DeleteNoteButton.UseVisualStyleBackColor = true;
+            this.DeleteNoteButton.Click += new System.EventHandler(this.DeleteNoteButton_Click);
             // 
             // EditNoteButton
             // 
@@ -255,7 +257,6 @@
             this.EditNoteButton.TabIndex = 5;
             this.EditNoteButton.Text = " ";
             this.EditNoteButton.UseVisualStyleBackColor = true;
-            this.EditNoteButton.Click += new System.EventHandler(this.EditNoteButton_Click);
             // 
             // AddNoteButton
             // 
@@ -297,7 +298,8 @@
             this.MainMenuStrip = this.Menu;
             this.MinimumSize = new System.Drawing.Size(660, 455);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "NoteApp";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
             this.ResumeLayout(false);

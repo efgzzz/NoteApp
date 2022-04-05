@@ -107,5 +107,11 @@
   <ItemGroup>
     <None Include="Resources\garbage_remove_clean_recycle_bin_waste_trash_icon_219330.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NoteApp.Model\NoteApp.Model.csproj">
+      <Project>{2ECBCBE4-49D1-43B9-8C75-986F9EE7C3BC}</Project>
+      <Name>NoteApp.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

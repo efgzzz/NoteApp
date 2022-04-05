@@ -39,17 +39,17 @@ namespace NoteApp.Model
         /// <summary>
         /// Категория заметки.
         /// </summary>
-        private NoteCategory _category { get; set; }
+        public NoteCategory Category { get; set; } = NoteCategory.Work;
 
         /// <summary>
         /// Дата создания.
         /// </summary>
-        private DateTime _createTime { get; set; } = DateTime.Now;
+        public DateTime CreateTime { get; set; } = DateTime.Now;
 
         /// <summary>
         /// Дата обновления.
         /// </summary>
-        private DateTime _updateTime { get; set; }
+        public DateTime UpdateTime { get; set; }
 
         /// <summary>
         /// Геттер и сеттер названия.
@@ -70,7 +70,7 @@ namespace NoteApp.Model
                 }
 
                 _title = value;
-                _updateTime = DateTime.Now;
+                UpdateTime = DateTime.Now;
             }
         }
 
@@ -83,7 +83,7 @@ namespace NoteApp.Model
             set
             {
                 _text = value;
-                _updateTime = DateTime.Now;
+                UpdateTime = DateTime.Now;
             }
         }
 
@@ -96,9 +96,9 @@ namespace NoteApp.Model
             Note note = new Note();
             note.Title = this.Title;
             note.Text = this.Text;
-            note._category = this._category;
-            note._createTime = this._createTime;
-            note._updateTime = this._updateTime;
+            note.Category = this.Category;
+            note.CreateTime = this.CreateTime;
+            note.UpdateTime = this.UpdateTime;
             return note;
         }
     }
