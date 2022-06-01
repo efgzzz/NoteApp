@@ -18,6 +18,9 @@ namespace NoteApp.View
         /// </summary>
         private Project _project;
 
+        /// <summary>
+        /// 
+        /// </summary>
         public MainForm()
         {
             _project = new Project();
@@ -41,8 +44,8 @@ namespace NoteApp.View
         /// </summary>
         private void AddNote()
         {
-            Random random = new Random();
-            Note note = new Note();
+            var random = new Random();
+            var note = new Note();
             note.Title = random.Next().ToString();
             note.Text = random.Next().ToString();
             _project.Notes.Add(note);
@@ -59,7 +62,9 @@ namespace NoteApp.View
                 return;
             }
 
-            DialogResult result = MessageBox.Show($"Do you really want to remove {NoteListBox.SelectedItem.ToString()}?",
+            DialogResult result = MessageBox.Show($"Do you " +
+                $"really want to remove " +
+                $"{NoteListBox.SelectedItem}?",
                 "", MessageBoxButtons.OKCancel);
             if (result == DialogResult.OK)
             {     
@@ -80,11 +85,12 @@ namespace NoteApp.View
                 ClearSelectedNote();
                 return;
             }
-                NoteText.Text = _project.Notes[index].Text;
-                NoteName.Text = _project.Notes[index].Title;
-                CreationDatePicker.Value = _project.Notes[index].CreateTime;
-                ModifedDatePicker.Value = _project.Notes[index].UpdateTime;
-                CategoryNameLabel.Text = _project.Notes[index].Category.ToString();
+            var note = _project.Notes[index];
+            NoteText.Text = note.Text;
+            NoteName.Text = note.Title;
+            CreationDatePicker.Value = note.CreateTime;
+            ModifedDatePicker.Value = note.UpdateTime;
+            CategoryNameLabel.Text = note.Category.ToString();
         }
 
         /// <summary>
@@ -127,7 +133,7 @@ namespace NoteApp.View
         /// <param name="e"></param>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutForm aboutForm = new AboutForm();
+            var aboutForm = new AboutForm();
             aboutForm.Show();
         }
 
@@ -181,8 +187,9 @@ namespace NoteApp.View
         /// <param name="e"></param>
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult result = MessageBox.Show("Are you sure want to exit?",
-    "", MessageBoxButtons.OKCancel);
+            DialogResult result = MessageBox.Show("" +
+                "Are you sure want to exit?",
+                "", MessageBoxButtons.OKCancel);
             if (result != DialogResult.OK)
             {
                 e.Cancel = true;

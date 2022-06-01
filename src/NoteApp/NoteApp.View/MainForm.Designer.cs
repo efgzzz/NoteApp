@@ -44,7 +44,7 @@
             this.CreatedStaticLabel = new System.Windows.Forms.Label();
             this.CreationDatePicker = new System.Windows.Forms.DateTimePicker();
             this.ModifedDatePicker = new System.Windows.Forms.DateTimePicker();
-            this.ModifedStaticLabel = new System.Windows.Forms.Label();
+            this.ModifiedStaticLabel = new System.Windows.Forms.Label();
             this.ShowCategoryLabel = new System.Windows.Forms.Label();
             this.CategoryComboBox = new System.Windows.Forms.ComboBox();
             this.NoteListBox = new System.Windows.Forms.ListBox();
@@ -131,7 +131,7 @@
             // 
             this.NoteName.AutoSize = true;
             this.NoteName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NoteName.Location = new System.Drawing.Point(272, 33);
+            this.NoteName.Location = new System.Drawing.Point(250, 27);
             this.NoteName.Name = "NoteName";
             this.NoteName.Size = new System.Drawing.Size(115, 24);
             this.NoteName.TabIndex = 0;
@@ -140,7 +140,8 @@
             // CategoryStaticLabel
             // 
             this.CategoryStaticLabel.AutoSize = true;
-            this.CategoryStaticLabel.Location = new System.Drawing.Point(262, 66);
+            this.CategoryStaticLabel.Location = new System.Drawing.Point(251, 57);
+            this.CategoryStaticLabel.Margin = new System.Windows.Forms.Padding(0);
             this.CategoryStaticLabel.Name = "CategoryStaticLabel";
             this.CategoryStaticLabel.Size = new System.Drawing.Size(55, 13);
             this.CategoryStaticLabel.TabIndex = 1;
@@ -149,7 +150,8 @@
             // CategoryNameLabel
             // 
             this.CategoryNameLabel.AutoSize = true;
-            this.CategoryNameLabel.Location = new System.Drawing.Point(323, 66);
+            this.CategoryNameLabel.Location = new System.Drawing.Point(306, 57);
+            this.CategoryNameLabel.Margin = new System.Windows.Forms.Padding(0);
             this.CategoryNameLabel.Name = "CategoryNameLabel";
             this.CategoryNameLabel.Size = new System.Drawing.Size(80, 13);
             this.CategoryNameLabel.TabIndex = 2;
@@ -158,7 +160,7 @@
             // CreatedStaticLabel
             // 
             this.CreatedStaticLabel.AutoSize = true;
-            this.CreatedStaticLabel.Location = new System.Drawing.Point(262, 100);
+            this.CreatedStaticLabel.Location = new System.Drawing.Point(251, 79);
             this.CreatedStaticLabel.Name = "CreatedStaticLabel";
             this.CreatedStaticLabel.Size = new System.Drawing.Size(47, 13);
             this.CreatedStaticLabel.TabIndex = 3;
@@ -168,7 +170,7 @@
             // 
             this.CreationDatePicker.Enabled = false;
             this.CreationDatePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.CreationDatePicker.Location = new System.Drawing.Point(315, 94);
+            this.CreationDatePicker.Location = new System.Drawing.Point(308, 76);
             this.CreationDatePicker.Name = "CreationDatePicker";
             this.CreationDatePicker.Size = new System.Drawing.Size(91, 20);
             this.CreationDatePicker.TabIndex = 4;
@@ -177,24 +179,25 @@
             // 
             this.ModifedDatePicker.Enabled = false;
             this.ModifedDatePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.ModifedDatePicker.Location = new System.Drawing.Point(466, 94);
+            this.ModifedDatePicker.Location = new System.Drawing.Point(464, 76);
+            this.ModifedDatePicker.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.ModifedDatePicker.Name = "ModifedDatePicker";
             this.ModifedDatePicker.Size = new System.Drawing.Size(91, 20);
             this.ModifedDatePicker.TabIndex = 5;
             // 
-            // ModifedStaticLabel
+            // ModifiedStaticLabel
             // 
-            this.ModifedStaticLabel.AutoSize = true;
-            this.ModifedStaticLabel.Location = new System.Drawing.Point(412, 100);
-            this.ModifedStaticLabel.Name = "ModifedStaticLabel";
-            this.ModifedStaticLabel.Size = new System.Drawing.Size(48, 13);
-            this.ModifedStaticLabel.TabIndex = 6;
-            this.ModifedStaticLabel.Text = "Modifed:";
+            this.ModifiedStaticLabel.AutoSize = true;
+            this.ModifiedStaticLabel.Location = new System.Drawing.Point(405, 79);
+            this.ModifiedStaticLabel.Name = "ModifiedStaticLabel";
+            this.ModifiedStaticLabel.Size = new System.Drawing.Size(50, 13);
+            this.ModifiedStaticLabel.TabIndex = 6;
+            this.ModifiedStaticLabel.Text = "Modified:";
             // 
             // ShowCategoryLabel
             // 
             this.ShowCategoryLabel.AutoSize = true;
-            this.ShowCategoryLabel.Location = new System.Drawing.Point(9, 37);
+            this.ShowCategoryLabel.Location = new System.Drawing.Point(9, 33);
             this.ShowCategoryLabel.Name = "ShowCategoryLabel";
             this.ShowCategoryLabel.Size = new System.Drawing.Size(82, 13);
             this.ShowCategoryLabel.TabIndex = 1;
@@ -203,7 +206,7 @@
             // CategoryComboBox
             // 
             this.CategoryComboBox.FormattingEnabled = true;
-            this.CategoryComboBox.Location = new System.Drawing.Point(97, 34);
+            this.CategoryComboBox.Location = new System.Drawing.Point(97, 30);
             this.CategoryComboBox.Name = "CategoryComboBox";
             this.CategoryComboBox.Size = new System.Drawing.Size(151, 21);
             this.CategoryComboBox.TabIndex = 2;
@@ -213,9 +216,10 @@
             this.NoteListBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.NoteListBox.FormattingEnabled = true;
-            this.NoteListBox.Location = new System.Drawing.Point(12, 75);
+            this.NoteListBox.IntegralHeight = false;
+            this.NoteListBox.Location = new System.Drawing.Point(12, 57);
             this.NoteListBox.Name = "NoteListBox";
-            this.NoteListBox.Size = new System.Drawing.Size(236, 290);
+            this.NoteListBox.Size = new System.Drawing.Size(236, 323);
             this.NoteListBox.TabIndex = 3;
             this.NoteListBox.SelectedIndexChanged += new System.EventHandler(this.NoteListBox_SelectedIndexChanged);
             // 
@@ -225,10 +229,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NoteText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.NoteText.Location = new System.Drawing.Point(265, 120);
+            this.NoteText.Location = new System.Drawing.Point(254, 102);
             this.NoteText.Name = "NoteText";
             this.NoteText.ReadOnly = true;
-            this.NoteText.Size = new System.Drawing.Size(367, 284);
+            this.NoteText.Size = new System.Drawing.Size(378, 304);
             this.NoteText.TabIndex = 7;
             this.NoteText.Text = "";
             // 
@@ -238,7 +242,7 @@
             this.DeleteNoteButton.BackgroundImage = global::NoteApp.View.Properties.Resources.garbage_remove_clean_recycle_bin_waste_trash_icon_219330;
             this.DeleteNoteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.DeleteNoteButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.DeleteNoteButton.Location = new System.Drawing.Point(71, 381);
+            this.DeleteNoteButton.Location = new System.Drawing.Point(64, 383);
             this.DeleteNoteButton.Name = "DeleteNoteButton";
             this.DeleteNoteButton.Size = new System.Drawing.Size(23, 23);
             this.DeleteNoteButton.TabIndex = 6;
@@ -251,7 +255,7 @@
             this.EditNoteButton.BackgroundImage = global::NoteApp.View.Properties.Resources.pen_app_process_draw_creative_web_edit_icon_219334;
             this.EditNoteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.EditNoteButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.EditNoteButton.Location = new System.Drawing.Point(41, 381);
+            this.EditNoteButton.Location = new System.Drawing.Point(38, 383);
             this.EditNoteButton.Name = "EditNoteButton";
             this.EditNoteButton.Size = new System.Drawing.Size(23, 23);
             this.EditNoteButton.TabIndex = 5;
@@ -265,7 +269,7 @@
             this.AddNoteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.AddNoteButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AddNoteButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.AddNoteButton.Location = new System.Drawing.Point(12, 381);
+            this.AddNoteButton.Location = new System.Drawing.Point(12, 383);
             this.AddNoteButton.Margin = new System.Windows.Forms.Padding(0);
             this.AddNoteButton.Name = "AddNoteButton";
             this.AddNoteButton.Size = new System.Drawing.Size(23, 23);
@@ -281,7 +285,7 @@
             this.ClientSize = new System.Drawing.Size(644, 416);
             this.Controls.Add(this.NoteText);
             this.Controls.Add(this.DeleteNoteButton);
-            this.Controls.Add(this.ModifedStaticLabel);
+            this.Controls.Add(this.ModifiedStaticLabel);
             this.Controls.Add(this.EditNoteButton);
             this.Controls.Add(this.AddNoteButton);
             this.Controls.Add(this.ModifedDatePicker);
@@ -319,7 +323,7 @@
         private System.Windows.Forms.Label CreatedStaticLabel;
         private System.Windows.Forms.DateTimePicker CreationDatePicker;
         private System.Windows.Forms.DateTimePicker ModifedDatePicker;
-        private System.Windows.Forms.Label ModifedStaticLabel;
+        private System.Windows.Forms.Label ModifiedStaticLabel;
         private System.Windows.Forms.Label ShowCategoryLabel;
         private System.Windows.Forms.ComboBox CategoryComboBox;
         private System.Windows.Forms.ListBox NoteListBox;

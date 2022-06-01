@@ -34,7 +34,7 @@ namespace NoteApp.Model
         /// <summary>
         /// Стандартный текст.
         /// </summary>
-        private string _defaultText = " ";
+        private string _defaultText = "";
 
         /// <summary>
         /// Категория заметки.
@@ -56,7 +56,10 @@ namespace NoteApp.Model
         /// </summary>
         public string Title
         {
-            get { return _title; }
+            get 
+            {
+                return _title; 
+            }
 
             set
             {

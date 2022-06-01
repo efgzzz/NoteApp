@@ -38,14 +38,14 @@
             this.NoteTextBox = new System.Windows.Forms.RichTextBox();
             this.OkButton = new System.Windows.Forms.Button();
             this.CancelButton = new System.Windows.Forms.Button();
-            this.ModifedLabel = new System.Windows.Forms.Label();
+            this.ModifiedLabel = new System.Windows.Forms.Label();
             this.ModifedDatePicker = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // TitleLable
             // 
             this.TitleLable.AutoSize = true;
-            this.TitleLable.Location = new System.Drawing.Point(12, 19);
+            this.TitleLable.Location = new System.Drawing.Point(9, 9);
             this.TitleLable.Name = "TitleLable";
             this.TitleLable.Size = new System.Drawing.Size(33, 13);
             this.TitleLable.TabIndex = 0;
@@ -54,7 +54,7 @@
             // CategoryLabel
             // 
             this.CategoryLabel.AutoSize = true;
-            this.CategoryLabel.Location = new System.Drawing.Point(12, 49);
+            this.CategoryLabel.Location = new System.Drawing.Point(9, 35);
             this.CategoryLabel.Name = "CategoryLabel";
             this.CategoryLabel.Size = new System.Drawing.Size(55, 13);
             this.CategoryLabel.TabIndex = 1;
@@ -63,7 +63,7 @@
             // CreatedLabel
             // 
             this.CreatedLabel.AutoSize = true;
-            this.CreatedLabel.Location = new System.Drawing.Point(12, 81);
+            this.CreatedLabel.Location = new System.Drawing.Point(9, 62);
             this.CreatedLabel.Name = "CreatedLabel";
             this.CreatedLabel.Size = new System.Drawing.Size(47, 13);
             this.CreatedLabel.TabIndex = 2;
@@ -73,24 +73,24 @@
             // 
             this.TitleTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.TitleTextBox.Location = new System.Drawing.Point(80, 19);
+            this.TitleTextBox.Location = new System.Drawing.Point(62, 6);
             this.TitleTextBox.Name = "TitleTextBox";
-            this.TitleTextBox.Size = new System.Drawing.Size(358, 20);
+            this.TitleTextBox.Size = new System.Drawing.Size(589, 20);
             this.TitleTextBox.TabIndex = 3;
             // 
             // CategoryBox
             // 
             this.CategoryBox.FormattingEnabled = true;
-            this.CategoryBox.Location = new System.Drawing.Point(80, 49);
+            this.CategoryBox.Location = new System.Drawing.Point(62, 32);
             this.CategoryBox.Name = "CategoryBox";
-            this.CategoryBox.Size = new System.Drawing.Size(121, 21);
+            this.CategoryBox.Size = new System.Drawing.Size(148, 21);
             this.CategoryBox.TabIndex = 4;
             // 
             // CreationDatePicker
             // 
             this.CreationDatePicker.Enabled = false;
             this.CreationDatePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.CreationDatePicker.Location = new System.Drawing.Point(80, 81);
+            this.CreationDatePicker.Location = new System.Drawing.Point(62, 59);
             this.CreationDatePicker.Name = "CreationDatePicker";
             this.CreationDatePicker.Size = new System.Drawing.Size(91, 20);
             this.CreationDatePicker.TabIndex = 5;
@@ -100,9 +100,9 @@
             this.NoteTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.NoteTextBox.Location = new System.Drawing.Point(15, 122);
+            this.NoteTextBox.Location = new System.Drawing.Point(12, 85);
             this.NoteTextBox.Name = "NoteTextBox";
-            this.NoteTextBox.Size = new System.Drawing.Size(423, 242);
+            this.NoteTextBox.Size = new System.Drawing.Size(639, 439);
             this.NoteTextBox.TabIndex = 6;
             this.NoteTextBox.Text = "";
             // 
@@ -110,7 +110,7 @@
             // 
             this.OkButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.OkButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.OkButton.Location = new System.Drawing.Point(282, 369);
+            this.OkButton.Location = new System.Drawing.Point(495, 529);
             this.OkButton.Name = "OkButton";
             this.OkButton.Size = new System.Drawing.Size(75, 24);
             this.OkButton.TabIndex = 7;
@@ -122,7 +122,7 @@
             // 
             this.CancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.CancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.CancelButton.Location = new System.Drawing.Point(363, 369);
+            this.CancelButton.Location = new System.Drawing.Point(576, 529);
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.Size = new System.Drawing.Size(75, 24);
             this.CancelButton.TabIndex = 8;
@@ -130,20 +130,20 @@
             this.CancelButton.UseVisualStyleBackColor = true;
             this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
-            // ModifedLabel
+            // ModifiedLabel
             // 
-            this.ModifedLabel.AutoSize = true;
-            this.ModifedLabel.Location = new System.Drawing.Point(189, 81);
-            this.ModifedLabel.Name = "ModifedLabel";
-            this.ModifedLabel.Size = new System.Drawing.Size(51, 13);
-            this.ModifedLabel.TabIndex = 9;
-            this.ModifedLabel.Text = "Modifed: ";
+            this.ModifiedLabel.AutoSize = true;
+            this.ModifiedLabel.Location = new System.Drawing.Point(159, 62);
+            this.ModifiedLabel.Name = "ModifiedLabel";
+            this.ModifiedLabel.Size = new System.Drawing.Size(53, 13);
+            this.ModifiedLabel.TabIndex = 9;
+            this.ModifiedLabel.Text = "Modified: ";
             // 
             // ModifedDatePicker
             // 
             this.ModifedDatePicker.Enabled = false;
             this.ModifedDatePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.ModifedDatePicker.Location = new System.Drawing.Point(247, 80);
+            this.ModifedDatePicker.Location = new System.Drawing.Point(216, 59);
             this.ModifedDatePicker.Name = "ModifedDatePicker";
             this.ModifedDatePicker.Size = new System.Drawing.Size(91, 20);
             this.ModifedDatePicker.TabIndex = 10;
@@ -152,9 +152,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 401);
+            this.ClientSize = new System.Drawing.Size(664, 561);
             this.Controls.Add(this.ModifedDatePicker);
-            this.Controls.Add(this.ModifedLabel);
+            this.Controls.Add(this.ModifiedLabel);
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.OkButton);
             this.Controls.Add(this.NoteTextBox);
@@ -165,7 +165,7 @@
             this.Controls.Add(this.CategoryLabel);
             this.Controls.Add(this.TitleLable);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(400, 440);
+            this.MinimumSize = new System.Drawing.Size(680, 600);
             this.Name = "NoteForm";
             this.Text = "Add/Edit Note";
             this.ResumeLayout(false);
@@ -184,7 +184,7 @@
         private System.Windows.Forms.RichTextBox NoteTextBox;
         private System.Windows.Forms.Button OkButton;
         private System.Windows.Forms.Button CancelButton;
-        private System.Windows.Forms.Label ModifedLabel;
+        private System.Windows.Forms.Label ModifiedLabel;
         private System.Windows.Forms.DateTimePicker ModifedDatePicker;
     }
 }
